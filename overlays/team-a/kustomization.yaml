@@ -10,7 +10,7 @@ nameSuffix:
   -a-app
 
 patches:
- - deployment.yaml
+- deployment.yaml
 
 configMapGenerator:
 - name: myconfig-map
