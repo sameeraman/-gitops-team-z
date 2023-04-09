@@ -1,0 +1,8 @@
+resources:
+- deployment.yaml
+- service.yaml
+- namespace.yaml
+
+configMapGenerator:
+- name: myconfig-map
+  env: config.properties

@@ -1,0 +1,18 @@
+bases:
+- ../../base/
+
+namespace: team-a-app
+
+commonLabels:
+  app: team-a-app
+
+nameSuffix:
+  -a-app
+
+patches:
+ - deployment.yaml
+
+configMapGenerator:
+- name: myconfig-map
+  behavior: replace
+  env: config.properties
