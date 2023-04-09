@@ -9,8 +9,7 @@ commonLabels:
 nameSuffix:
   -a-app
 
-patches:
-- deployment.yaml
+
 
 configMapGenerator:
 - name: myconfig-map
